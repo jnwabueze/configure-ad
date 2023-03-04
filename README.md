@@ -30,7 +30,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create the Client VM (Windows 10). *Use the same Resource Group and Vnet created in the first step. <br />
 - Make sure both VMs are in the same Vnet (take a look at topology in Network Watcher). <br />
 <br />
-To ensure connectivity, login to Client VM with Remote Desktop and ping Domain COntroller's private IP address with <i>ping -t </i>  <br />
+To ensure connectivity, login to Client VM with Remote Desktop and ping Domain COntroller's private IP address with <i>ping -t. </i>  <br />
 Login to the Domain Controller and enable ICMPv4 on the local windows firewall. <br />
 See that the ping succeeds in Client VM.
 </p>
